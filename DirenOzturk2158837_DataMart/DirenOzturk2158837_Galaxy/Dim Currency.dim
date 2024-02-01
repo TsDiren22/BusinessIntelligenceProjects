@@ -1,0 +1,138 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bbe13a29-b1de-4fcf-b4d5-bbe2657fa51b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Currency</ID>
+  <Name>Dim Currency</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="913274ab-9b7e-4c5b-afdb-b157c09357a9">
+    <DataSourceViewID>DataSourceView Monthly Sales</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="569ff454-205e-4383-a0c9-f4765567dc6e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="161a0b83-7a89-4ddc-b0f3-4e146e639fa5">
+      <ID>ID Currency</ID>
+      <Name>ID Currency</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="02df025d-00f3-4096-bd21-01d9fad25cc1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="37180a31-a91b-4842-97a5-f89284d72ac1">
+            <TableID>dbo_Dim_Currency</TableID>
+            <ColumnID>ID_Currency</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bcd80d19-50c6-4cc3-b88a-0e3a5171c5ce">
+          <AttributeID>Currency ISO Code</AttributeID>
+          <Name>Currency ISO Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ffdd2dbb-0262-416f-b092-229fa6fb7fd5">
+          <AttributeID>Currency Name</AttributeID>
+          <Name>Currency Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4edcc9d7-38b1-4d06-ba61-82d0698dcf2e">
+          <AttributeID>Currency Symbol ID</AttributeID>
+          <Name>Currency Symbol ID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a42d7457-b9e9-4fef-8461-cc89ef5d8816">
+      <ID>Currency ISO Code</ID>
+      <Name>Currency ISO Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a6bf9076-b433-450d-846b-9b088767aa0e">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4ab691b9-fa99-4a40-9df3-9b766b437a93">
+            <TableID>dbo_Dim_Currency</TableID>
+            <ColumnID>Currency_ISO_Code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d969b5af-b689-4836-b56e-c0f3ef219738">
+      <ID>Currency Name</ID>
+      <Name>Currency Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bec87831-18b1-423b-bc63-e952807f01c7">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dfb587d5-1c8c-4393-9eea-1a5cc0e34b86">
+            <TableID>dbo_Dim_Currency</TableID>
+            <ColumnID>Currency_Name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e5e9bce5-3e58-4cbf-8582-929338f033a6">
+      <ID>Currency Symbol ID</ID>
+      <Name>Currency Symbol ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0eaecc08-2485-46b5-9d01-6805d35f9bf2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d41f89bb-d5f4-4fd7-8e4f-4e13e3b55d46">
+            <TableID>dbo_Dim_Currency</TableID>
+            <ColumnID>Currency_Symbol_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

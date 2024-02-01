@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Adventure Bikes Sales Data Mart Galaxy</Id>
+            <Name>Adventure Bikes Sales Data Mart Galaxy</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEkgnuGm+RU2fXx7l/s5rTAAAAABOAAAAQQBkAHYAZQBuAHQAdQByAGUAIABCAGkAawBlAHMAIABTAGEAbABlAHMAIABEAGEAdABhACAATQBhAHIAdAAgAEcAYQBsAGEAeAB5AAAAEGYAAAABAAAgAAAAYj8pzIgYG3SnCFQ51XQ0R+/WLch9gl/A8PuZoY5q10UAAAAADoAAAAACAAAgAAAAmYEzUQsmtERO1nOsXyrgz/OD1vVDz+W48LOXjbQYSBAQAAAA3MniQ8M+hd/PAQ/3Nkgl00AAAACCqmJ2FaSRqYr2Kfe5IONh/w/2/600K3TJGeFQ5A70Si3YVRR9LdM1B8y79p4zwT/v1SjTkh6DVXmdoDIQcdTo</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Adventure Bikes Sales Data Mart Galaxy</Id>
+            <Name>Adventure Bikes Sales Data Mart Galaxy</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEkgnuGm+RU2fXx7l/s5rTAAAAABOAAAAQQBkAHYAZQBuAHQAdQByAGUAIABCAGkAawBlAHMAIABTAGEAbABlAHMAIABEAGEAdABhACAATQBhAHIAdAAgAEcAYQBsAGEAeAB5AAAAEGYAAAABAAAgAAAA7tNvjINzf6X2r+cfIt50OV/aZgE2Qsv6YsZjdCgkYOEAAAAADoAAAAACAAAgAAAAnzSBOOUtBi7piqxtVbx3y2RHVAW1Xb0WPrcJsVc+L/kgAAAAss71bYlFf034aLZt6jcb9GLJoyBkjWIOpwchxdjYc6ZAAAAAs4XCWXzvxPXzxaUmx6bzU2F5Mz8cTX+2lEX+4oLQAPgH6bis2YP9py6zIkWA/XfLD1edp+pSykWNjFHzMZTPiA==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>http://aei-sql2.avans.nl/OLAP/msmdpump.dll</TargetServer>
+        <TargetDatabase>DirenOzturk2158837_Hoofdstuk7</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

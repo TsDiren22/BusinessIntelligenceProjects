@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DirenOzturk2158837_Monthly_Sales_Analysis</Database>
+    <Server>http://aei-sql2.avans.nl/OLAP/msmdpump.dll</Server>
+    <ConnectionString>Data Source=http://aei-sql2.avans.nl/OLAP/msmdpump.dll;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ywT1IFUunEqrOrLmjwq3JBqvdZ4=9-2-2022 19:02:069-2-2022 19:02:06</TimeStamp>
+        <ID>
+          <String>Adventure Bikes Sales Data Mart OLAP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>U4Jd0V90qPK8MOZ8HY1wmT+rRJU=9-2-2022 20:22:219-2-2022 19:15:18</TimeStamp>
+        <ID>
+          <String>DataSourceView Monthly Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>76l+EEfZmyRKflWS7gAdLYbHTOE=9-2-2022 22:10:259-2-2022 19:18:54</TimeStamp>
+        <ID>
+          <String>Dim Calendar Month</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>E2fesbYSh01E24YCboSYydVXkzg=9-2-2022 19:20:099-2-2022 19:20:09</TimeStamp>
+        <ID>
+          <String>Dim Sales Office</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VUSbXuoW9TZuM4Q13liE6slyOuw=9-2-2022 19:20:429-2-2022 19:20:42</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WjpOvjnF7n7isETSE+bFoEtusu8=9-2-2022 19:21:039-2-2022 19:21:03</TimeStamp>
+        <ID>
+          <String>Dim Product Category</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MMegRw9BoNEoW4NZR6uxtzya0tU=9-2-2022 19:21:269-2-2022 19:21:25</TimeStamp>
+        <ID>
+          <String>Dim Currency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tsEBCzT9/4biAXYfFdQs/Gekxhs=9-2-2022 19:21:509-2-2022 19:21:50</TimeStamp>
+        <ID>
+          <String>Dim Sales Channel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>OvyZzgJjo4O5HXLBMM0wnHjsqJ8=23-2-2022 15:22:229-2-2022 19:43:56jQK6AGTY6Q60q0ep4IikAzOkfgQ=9-2-2022 19:43:569-2-2022 19:43:56</TimeStamp>
+        <ID>
+          <String>Measure Group to Monthly Sales Measures</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>f9db5y2hgXebtwwGwNwELSHO+Sg=9-2-2022 18:29:409-2-2022 18:29:39</TimeStamp>
+      <ID>
+        <String>DirenOzturk2158837_Monthly_Sales_Analysis</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-02-23T14:22:48.55Z</LastDeployed>
+</DeploymentSnapshot>

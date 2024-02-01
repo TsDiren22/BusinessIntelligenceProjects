@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DirenOzturk2158837_DataMart", "DirenOzturk2158837_DataMart\DirenOzturk2158837_DataMart.dtproj", "{A15B8053-1A4B-4431-9F1A-0656448DFAFA}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DirenOzturk2158837_Monthly_Sales_Analysis", "DirenOzturk2158837_Monthly_Sales_Analysis\DirenOzturk2158837_Monthly_Sales_Analysis.dwproj", "{46E6962F-600D-43B0-B323-1D5E1EDC908F}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DirenOzturk2158837_Galaxy", "DirenOzturk2158837_Galaxy\DirenOzturk2158837_Galaxy.dwproj", "{D7577F75-85EA-4CE6-933E-808BCB855F6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A15B8053-1A4B-4431-9F1A-0656448DFAFA}.Development|Default.ActiveCfg = Development
+		{A15B8053-1A4B-4431-9F1A-0656448DFAFA}.Development|Default.Build.0 = Development
+		{46E6962F-600D-43B0-B323-1D5E1EDC908F}.Development|Default.ActiveCfg = Development
+		{46E6962F-600D-43B0-B323-1D5E1EDC908F}.Development|Default.Build.0 = Development
+		{46E6962F-600D-43B0-B323-1D5E1EDC908F}.Development|Default.Deploy.0 = Development
+		{D7577F75-85EA-4CE6-933E-808BCB855F6E}.Development|Default.ActiveCfg = Development
+		{D7577F75-85EA-4CE6-933E-808BCB855F6E}.Development|Default.Build.0 = Development
+		{D7577F75-85EA-4CE6-933E-808BCB855F6E}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DAAD303-B764-4CAB-A8C9-95C4EF17FC59}
+	EndGlobalSection
+EndGlobal

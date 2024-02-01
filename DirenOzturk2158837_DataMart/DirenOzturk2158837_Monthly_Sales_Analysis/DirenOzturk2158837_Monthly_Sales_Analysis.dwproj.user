@@ -1,0 +1,39 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Adventure Bikes Sales Data Mart</Id>
+            <Name>Adventure Bikes Sales Data Mart</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEkgnuGm+RU2fXx7l/s5rTAAAAABAAAAAQQBkAHYAZQBuAHQAdQByAGUAIABCAGkAawBlAHMAIABTAGEAbABlAHMAIABEAGEAdABhACAATQBhAHIAdAAAABBmAAAAAQAAIAAAAN7KQprVdzMc+PRWi1kZRPKeQmylsmABoHA3NKgaY+vAAAAAAA6AAAAAAgAAIAAAADVfEOC4+KJ0wyhNcZOkSB0JOJeR5PV7b8R0gOFHY/C5EAAAALtasl5aS5S/pUxT7mSTnNxAAAAA2aIjKny3EDFgXqAsTjwPQneFtNXwx1dZr9ZSk9vAXtQ1EnTxjOMAOPZbGy7kdNCm2azxxxffU0i/agKbQ0K47w==</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Adventure Bikes Sales Data Mart OLAP</Id>
+            <Name>Adventure Bikes Sales Data Mart OLAP</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEkgnuGm+RU2fXx7l/s5rTAAAAABKAAAAQQBkAHYAZQBuAHQAdQByAGUAIABCAGkAawBlAHMAIABTAGEAbABlAHMAIABEAGEAdABhACAATQBhAHIAdAAgAE8ATABBAFAAAAAQZgAAAAEAACAAAACkPaQUiWdH9I0WfRtNK/8M93cUkVvhv+QJiXhxAF+g3QAAAAAOgAAAAAIAACAAAACpo86hvhKY6ZaJW2WAk3c2Qmgctq+q6XYhh4ykBqTDRhAAAABZ2O3K/cVs3jw/bKCR0Z6cQAAAAPLqV2RW+Di4nvGzoQE8rcTJJmSpHcaeXwW6wWFeDLM0fgZOsFrUhIxB61tv9k6pQEjBBBj5Crp4D03ShG37+vI=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Adventure Bikes Sales Data Mart</Id>
+            <Name>Adventure Bikes Sales Data Mart</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEkgnuGm+RU2fXx7l/s5rTAAAAABAAAAAQQBkAHYAZQBuAHQAdQByAGUAIABCAGkAawBlAHMAIABTAGEAbABlAHMAIABEAGEAdABhACAATQBhAHIAdAAAABBmAAAAAQAAIAAAAFd9DkZYzuG9MyVtTy3hDLDmha9S8XS3KSjAp0Z+ypCBAAAAAA6AAAAAAgAAIAAAADaZhZOI7GEG/7O+HWYrbNDI9TPEWk9QR3QP6u7DNMLSIAAAAENTwU1HwJ1qoAj24DQjby4XWlYN/2a4F1wb0VQhirQRQAAAACgqBNKZFWhumDiGefb9/iwDBYQiRgF72LxxGOcsL5JaVD0KJeB3sMhxhaCUqkQlLL5ebTHh1xnHPc85+kHFuvE=</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Adventure Bikes Sales Data Mart OLAP</Id>
+            <Name>Adventure Bikes Sales Data Mart OLAP</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEkgnuGm+RU2fXx7l/s5rTAAAAABKAAAAQQBkAHYAZQBuAHQAdQByAGUAIABCAGkAawBlAHMAIABTAGEAbABlAHMAIABEAGEAdABhACAATQBhAHIAdAAgAE8ATABBAFAAAAAQZgAAAAEAACAAAAAG5/m/OIjoSXQ7YmKHGfShutiXghsAeiISXDTzZgsrCwAAAAAOgAAAAAIAACAAAAC+48JvHSj0MUvnyMdfAL8q2drXxbd7b49P3YDCEvQOSyAAAACn2ZLxq+f58eynh9VRitXAsiC7WlDhoLEQ7Ru8HssdkEAAAABEm4xHIyHzQIlxW/SIr3Wr0T7hdWT2kRzxUO4d9WirkSy/QFn7Cih6vW4xYt5PwrKgyUcHPi+6qvTfkCRJO4KA</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>http://aei-sql2.avans.nl/OLAP/msmdpump.dll</TargetServer>
+        <TargetDatabase>DirenOzturk2158837_Monthly_Sales_Analysis</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
